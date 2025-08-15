@@ -2,7 +2,7 @@ name: Proxies-Daily-Update
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # 每3小时运行一次（UTC时间）
+    - cron: '0 */72 * * *'  # 每72时运行一次（UTC时间）
   workflow_dispatch:
   push:
     tags-ignore:
